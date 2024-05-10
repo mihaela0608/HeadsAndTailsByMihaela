@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="heads-and-tails.css">
+    </head>
+    <body>
+        <p class="title"><i>Heads and Tails</i></p>
+        <p class="attention">Choose carefully!</p>
+        <div class="play-buttons">
+            
+            <button onclick="
+                    playGame('heads');
+                " class="play-button heads-button">HEADS</button>
+            <button onclick="
+                playGame('tails');
+            " class="play-button tails-button">TAILS</button>
+        </div>
+
+        <div class="move-container"><p class="move"></p></div>
+
+        <div class="restart">
+            <button class="restart-button" onclick="restart()">Restart</button>
+        </div>
+        
+       
+
+
+
+
+
+        <script src="js-headsAndTails.js"></script>
+    </body>
+</html>
